@@ -15,7 +15,7 @@ number.times do
     end
   count += 1 
 end
-puts array_of_numbers
+ 
 count = 1 
 
 array_of_numbers.each do |integer|
@@ -26,5 +26,6 @@ array_of_numbers.each do |integer|
   count += 1 
  end 
 true_or_false
+array_of_numbers
 end 
   

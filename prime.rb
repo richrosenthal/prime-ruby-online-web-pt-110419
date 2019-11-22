@@ -9,7 +9,9 @@ count = 1
   end
   
 number.times do 
-  array_of_numbers << count
+    if count != number 
+      array_of_numbers << count
+    end
   count += 1 
 end
 puts array_of_numbers

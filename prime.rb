@@ -1,18 +1,9 @@
 # Add  code here!defprime?()
 def prime?(number) 
-if number <= 1 
-  return false
-end
- if number%2 == 0 
-  if number == 2 
-     return true
-   else 
-     return false
-    end 
-end
-if number%2 > 0 
-  return true 
-end
-
+true_or_false = true
+  if number < 0 
+    return false 
+  end
+true_or_false
 end 
   

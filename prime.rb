@@ -2,7 +2,7 @@
 def prime?(number) 
 true_or_false = true
 array_of_numbers = []
-count = 1
+count = 2
 
   if number < 1 
     true_or_false = false 

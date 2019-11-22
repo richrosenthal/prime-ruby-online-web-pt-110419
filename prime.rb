@@ -17,6 +17,7 @@ array_of_numbers.each do |integer|
   if number%intger == 0 
     return false 
   end
+ end 
 true_or_false
 end 
   

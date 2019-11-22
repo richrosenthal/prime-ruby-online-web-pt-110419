@@ -12,7 +12,7 @@ number.times do
   array_of_numbers << count
   count += 1 
 end
-
+puts array_of_numbers
 count = 1 
 
 array_of_numbers.each do |integer|

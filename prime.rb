@@ -25,6 +25,5 @@ array_of_numbers.each do |integer|
  
  end 
 true_or_false
-array_of_numbers
 end 
   

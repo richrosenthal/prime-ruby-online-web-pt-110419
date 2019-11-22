@@ -7,7 +7,7 @@ array_of_numbers = []
     return false 
   end
   
-  
+number.times   
 true_or_false
 end 
   

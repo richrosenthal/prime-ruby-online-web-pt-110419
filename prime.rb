@@ -13,10 +13,13 @@ number.times do
   count += 1 
 end
 
+count = 1 
+
 array_of_numbers.each do |integer|
-  if number%integer == 0 
+  if (number % count ) == 0 
     return false 
   end
+  count += 1 
  end 
 true_or_false
 end 

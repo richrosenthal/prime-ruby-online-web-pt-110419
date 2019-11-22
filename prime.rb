@@ -4,7 +4,7 @@ true_or_false = true
 array_of_numbers = []
 count = 2
 
-  if number < 1 
+  if number < 2 
     true_or_false = false 
     return false 
   end

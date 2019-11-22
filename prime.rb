@@ -4,7 +4,7 @@ true_or_false = true
 array_of_numbers = []
 count = 1
 
-  if number < 0 
+  if number < 1 
     true_or_false = false 
     return false 
   end
@@ -16,14 +16,13 @@ number.times do
   count += 1 
 end
  
-count = 1 
+
 
 array_of_numbers.each do |integer|
-  if (number % count ) == 0 
-    true_or_false = false
+  if (number % integer ) == 0 
     return false 
   end
-  count += 1 
+ 
  end 
 true_or_false
 array_of_numbers

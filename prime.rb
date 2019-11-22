@@ -15,7 +15,7 @@ number.times do
     end
   count += 1 
 end
- 
+ array_of_numbers.pop
 
 
 array_of_numbers.each do |integer|

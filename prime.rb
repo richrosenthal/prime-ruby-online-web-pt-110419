@@ -9,10 +9,14 @@ count = 1
   end
   
 number.times do 
-  puts count
+  array_of_numbers << count
   count += 1 
 end
 
+array_of_numbers.each do |integer|
+  if number%intger == 0 
+    return false 
+  end
 true_or_false
 end 
   

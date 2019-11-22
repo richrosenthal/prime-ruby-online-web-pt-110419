@@ -14,7 +14,7 @@ number.times do
 end
 
 array_of_numbers.each do |integer|
-  if number%intger == 0 
+  if number%integer == 0 
     return false 
   end
  end 
